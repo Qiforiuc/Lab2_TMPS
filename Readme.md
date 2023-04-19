@@ -9,11 +9,11 @@ _______________________________________________________________________________
         exists in the application.
 
 ### Builder Pattern
-        The CarManufacturer class implements the Singleton pattern. 
-        The class has a private constructor and a getInstance() method 
-        that returns the singleton instance of the class. This ensures 
-        that only one instance of the CarManufacturer class exists in the 
-        application.
+        The CarBuilder interface and CarBuilderImpl class implement the Builder pattern. 
+        The CarBuilder interface defines the methods to build a car, 
+        and the CarBuilderImpl class provides implementations for these methods to create 
+        a new Car object with the specified attributes. 
+        This allows the creation of complex objects (i.e., cars) to be simplified and organized.
 
 ### Prototype Pattern
         The Car class implements the Cloneable interface to enable the 
