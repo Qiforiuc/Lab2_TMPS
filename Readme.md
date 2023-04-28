@@ -22,6 +22,10 @@ _______________________________________________________________________________
 
 ![img_3.png](img_3.png)
 
+![img_10.png](img_10.png)
+
+![img_11.png](img_11.png)
+
 ### Prototype Pattern
         The Car class implements the Cloneable interface to enable the 
         Prototype pattern. The CarManufacturer class uses the clone() 
