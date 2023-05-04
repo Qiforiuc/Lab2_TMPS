@@ -1,5 +1,19 @@
-# Car Manufacturer
+# Creational Design Patterns
 _______________________________________________________________________________
+
+## Objectives
+1. Study and understand the Creational Design Patterns.
+2. Choose a domain, define its main classes/models/entities 
+and choose the appropriate instantiation mechanisms.
+3. Use some creational design patterns for object instantiation in a sample project.
+
+## Used design patterns
+1. Singleton
+2. Builder
+3. Protorype
+4. Factory Method
+
+## Implementation
 
 ### Singleton Pattern
         The CarManufacturer class implements the Singleton pattern. 
@@ -54,3 +68,19 @@ _______________________________________________________________________________
 ![img_8.png](img_8.png)
 
 ![img_9.png](img_9.png)
+
+### Results after execution
+![img_12.png](img_12.png)
+
+## Conclusion
+
+In conclusion, programming is a vast field with numerous design patterns 
+available to make the development process more efficient and manageable. 
+The Singleton pattern is useful when there should only be one instance of 
+a class at any given time, while the Builder pattern helps to simplify the 
+creation of complex objects. The Prototype pattern provides a way to create 
+new objects by copying existing ones, while the Factory Method pattern allows
+for the creation of objects without specifying the exact class that will be 
+instantiated. Understanding and utilizing these design patterns can greatly 
+enhance the quality, efficiency, and maintainability of code in software 
+development.
